@@ -1,0 +1,187 @@
+.cardContainer{
+    max-width: 48rem;
+    width: 100%;
+    margin-left: calc(60px + 35px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cardBox h3{
+    font-family: 'Koulen', sans-serif;
+    font-weight: normal;
+    font-size: 1.375rem;
+    margin-bottom: .5rem;
+}
+.cardContent{
+    border-radius: 8px;
+    background: #FFF;
+    padding: .625rem 1.25rem;
+    box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.20);
+}
+.cardLink{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.cardLink button{
+    position: relative;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: .875rem;
+    color: #959595;
+    cursor: pointer;
+}
+.cardLink button.active{
+    color: #000;
+    font-weight: 500;
+}
+.cardLink button.active::before{
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #3959FF;
+    box-shadow: 1px 0px 2px 0px rgba(57, 89, 255, 0.60);
+    border-radius: 5px;
+}
+.cardContent hr{
+    margin-top: 5px;
+    border: 1px solid #EBEBEB;
+}
+.cardOrder{
+    margin-top: .9375rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.orderInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 20rem;
+    width: 100%;
+}
+.orderInfo img{
+    padding: .625rem;
+    background: #EEF2F5;
+    border-radius: .5rem;
+}
+.nameProduct{
+    font-size: .875rem;
+    font-weight: 600;
+    color: #253238;
+}
+.priceProduct{
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.orderOther{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 25px;
+    row-gap: 8px;
+}
+.orderOther span{
+    font-size: .8125rem;
+    font-weight: 600;
+    color: #253238;
+}
+.orderOther p{
+    font-size: .875rem;
+    color: #959595;
+}
+
+.cardDelivery .cardContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deliveryInfo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: .9375rem;
+}
+.deliveryInfo img{
+    width: 45px; height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.deliveryInfo div{
+    display: flex;
+    flex-direction: column;
+}
+.deliveryInfo span{
+    font-size: 1rem;
+    color: #272727;
+    font-weight: 500;
+}
+.deliveryInfo small{
+    font-size: .875rem;
+    color: #AFACAC;
+}
+.deliveryInfo .bx{
+    width: 40px; height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d3d3d3;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    color: #a5a5a5;
+}
+.deliveryAuthor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 37rem;
+}
+.deliveryOrder{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.deliveryOrders{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deliveryOrder .bx{
+    font-size: 1.375rem;
+    padding: 8px;
+    border: 1px solid #d3d3d3;
+    border-radius: 50%;
+}
+.deliveryOrder .bx-user{
+    color: #FF9534;
+}
+.deliveryOrder .bx-calendar-alt{
+    color: #A21CD1;
+}
+.deliveryOrder .bxs-map{
+    color: #1C8DF6;
+}
+.deliveryOrder div{
+    display: flex;
+    flex-direction: column;
+}
+.deliveryOrder small{
+    font-size: .75rem;
+    color: #B5B5B5;
+}
+.deliveryOrder span{
+    font-size: .875rem;
+    color: #000;
+    font-weight: 500;
+}
+.qrCode{
+    padding: .5rem;
+    background: #EEF2F5;
+    border-radius: 8px;
+}

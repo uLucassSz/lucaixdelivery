@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #F8F9FB;
+}
+a{
+  text-decoration: none;
+}
