@@ -1,3 +1,3 @@
 # LucaixDelivery
 
-Um site para informações de entrega de algum pedido
+Um website dedicado a fornecer informações detalhadas sobre o status e o progresso da entrega de pedidos.
